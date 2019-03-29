@@ -4,7 +4,7 @@
     class="flex shadow-lg justify-center pin-r absolute rounded-full bg-white w-16 h-16 mr-8">
       <div class="self-center text-5xl bold">></div>
     </button>
-    <div class="px-24 py-16 flex items-end min-h-screen">
+    <div class="px-8 md:px-24 py-16 flex items-end min-h-screen">
       <typed-text />
     </div>
   </section>
