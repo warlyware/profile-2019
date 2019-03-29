@@ -14,6 +14,7 @@ module.exports = {
   // add your custom rules here
   rules: {
     'vue/max-attributes-per-line': 0,
-    'vue/html-indent': 0
+    'vue/html-indent': 0,
+    'no-console': 1
   }
 }

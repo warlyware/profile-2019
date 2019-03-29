@@ -2,7 +2,7 @@ h1, h2, h3, h4, h5, h6, p, a, ul, li, button, div {
   font-family: 'fira-code-regular', -apple-system, BlinkMacSystemFont, Roboto, 'Helvetica Neue', Arial, sans-serif;
 }
 
-a:visited {
+a, a:visited {
   color: white;
 }
 
@@ -23,6 +23,6 @@ html {
   margin: 0;
 }
 
-nuxt-link, a {
+/* nuxt-link, a {
   text-decoration: none;
-}
+} */
