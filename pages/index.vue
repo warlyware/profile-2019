@@ -1,5 +1,5 @@
 <template>
-  <section class="px-16 py-16 flex items-end min-h-screen">
+  <section class="px-24 py-16 flex items-end min-h-screen">
     <typed-text />
   </section>
 </template>
