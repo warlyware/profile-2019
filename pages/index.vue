@@ -1,45 +1,36 @@
 <template>
   <section class="container">
-    <div>
-      <logo />
-      <h1 class="title">
-        profile-2019
-      </h1>
-      <h2 class="subtitle">
-        Profile 2019
-      </h2>
-      <div class="links">
-        <a
-          href="https://nuxtjs.org/"
-          target="_blank"
-          class="button--green"
-        >Documentation</a>
-        <a
-          href="https://github.com/nuxt/nuxt.js"
-          target="_blank"
-          class="button--grey"
-        >GitHub</a>
-      </div>
+    <div id="typed-text">
     </div>
   </section>
 </template>
 
 <script>
-import Logo from '~/components/Logo.vue'
+import TypeIt from 'typeit'
 
 export default {
-  components: {
-    Logo
+  data() {
+    return {
+      strings: [
+        'Hi!',
+        'My name is Dan Ward.',
+        `I'm a web developer,`,
+        'author,',
+        'technical writer,',
+        'and web technology consultant.'
+      ]
+    }
+  },
+  components: { },
+  mounted() {
+    new TypeIt('#typed-text', {
+      strings: this.strings
+    }).go()
   }
 }
 </script>
 
 <style>
-/* Sample `apply` at-rules with Tailwind CSS
-.container {
-  @apply min-h-screen flex justify-center items-center text-center mx-auto;
-}
-*/
 .container {
   margin: 0 auto;
   min-height: 100vh;
