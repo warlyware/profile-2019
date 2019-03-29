@@ -27,6 +27,7 @@ export default {
   ** Global CSS
   */
   css: [
+    '~/assets/fonts/webfont.css',
     '~/assets/css/reset.css',
     '~/assets/css/tailwind.css'
   ],

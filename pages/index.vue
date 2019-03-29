@@ -1,7 +1,6 @@
 <template>
-  <section class="container">
-    <div id="typed-text">
-    </div>
+  <section class="container px-16 py-16 flex items-end">
+    <div id="typed-text" class="font-bold text-5xl"></div>
   </section>
 </template>
 
@@ -15,16 +14,21 @@ export default {
         'Hi!',
         'My name is Dan Ward.',
         `I'm a web developer,`,
-        'author,',
-        'technical writer,',
-        'and web technology consultant.'
+        'author, technical writer,',
+        'and web technology consultant.',
+        '',
+        'I live and work',
+        'in Virginia Beach, VA',
+        'at Marathon Consulting.'
       ]
     }
   },
   components: { },
   mounted() {
     new TypeIt('#typed-text', {
-      strings: this.strings
+      strings: this.strings,
+      speed: 50,
+      nextStringDelay: 200
     }).go()
   }
 }
@@ -34,31 +38,5 @@ export default {
 .container {
   margin: 0 auto;
   min-height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-}
-
-.title {
-  font-family: 'Quicksand', 'Source Sans Pro', -apple-system, BlinkMacSystemFont,
-    'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
-  display: block;
-  font-weight: 300;
-  font-size: 100px;
-  color: #35495e;
-  letter-spacing: 1px;
-}
-
-.subtitle {
-  font-weight: 300;
-  font-size: 42px;
-  color: #526488;
-  word-spacing: 5px;
-  padding-bottom: 15px;
-}
-
-.links {
-  padding-top: 15px;
 }
 </style>
