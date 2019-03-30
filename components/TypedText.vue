@@ -1,5 +1,5 @@
 <template>
-  <div id="typed-text" class="font-bold text-lg sm:text-2xl md:text-3xl lg:text-5xl absolute pb-8"></div>
+  <div id="typed-text" class="font-bold text-lg sm:text-2xl md:text-3xl lg:text-5xl absolute pb-8" />
 </template>
 
 <script>

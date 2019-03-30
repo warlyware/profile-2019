@@ -15,6 +15,8 @@ module.exports = {
   rules: {
     'vue/max-attributes-per-line': 0,
     'vue/html-indent': 0,
-    'no-console': 1
+    'no-console': 1,
+    'no-useless-escape': 1,
+    'prefer-const': 1
   }
 }
