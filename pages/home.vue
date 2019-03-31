@@ -1,18 +1,15 @@
 <template>
   <div class="text-white">
-    <bokeh />
     <proficiencies />
   </div>
 </template>
 
 <script>
-import Bokeh from '~/components/Bokeh.vue'
 import Proficiencies from '~/components/Proficiencies.vue'
 
 export default {
   layout: 'main',
   components: {
-    Bokeh,
     Proficiencies
   }
 }
