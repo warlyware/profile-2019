@@ -138,10 +138,6 @@ export default {
 #typed-text {
   color: #f6f6f6;
   opacity: 1;
-  transition: all 0.3s linear;
-  // transition: opacity 0.3s linear;
-  // transition: width 0.3s linear;
-  // transition: font-size 0.3s linear;
   a {
     color: inherit;
   }
