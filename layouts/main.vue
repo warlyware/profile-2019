@@ -29,6 +29,27 @@
         @click="navigateTo('contact')">
           Contact
         </button>
+        <div class="text-white">===</div>
+        <a class="bg-opaque hover:bg-alt-blue-2 hover:text-brown-dark my-4 mx-4"
+        href="//github.com/warlyware"
+        target="_blank">
+          GitHub
+        </a>
+        <a class="bg-opaque hover:bg-alt-blue-2 hover:text-brown-dark my-4 mx-4"
+        href="//medium.com/@warlyware"
+        target="_blank">
+          Medium
+        </a>
+        <a class="bg-opaque hover:bg-alt-blue-2 hover:text-brown-dark my-4 mx-4"
+        href="//twitter.com/warlyware"
+        target="_blank">
+          Twitter
+        </a>
+        <a class="bg-opaque hover:bg-alt-blue-2 hover:text-brown-dark my-4 mx-4"
+        href="//www.linkedin.com/in/warlyware/"
+        target="_blank">
+          LinkedIn
+        </a>
       </div>
     </div>
     <bokeh />
@@ -78,14 +99,5 @@ export default {
 }
 .mt--1 {
   margin-top: -0.25rem;
-}
-.v-fade {
-  display: inherit !important;
-  transition: opacity 0.5s;
-}
-.v-fade[style*="display: none;"] {
-  opacity: 0;
-  pointer-events: none;
-  user-select: none;
 }
 </style>

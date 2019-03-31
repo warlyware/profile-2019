@@ -15,6 +15,15 @@ body {
   opacity: 0;
 }
 
-#typed-text, #mobile-menu {
+#typed-text {
   transition: all 0.4s linear;
+}
+.v-fade {
+  display: inherit !important;
+  transition: opacity 0.4s ease-in-out;
+}
+.v-fade[style*="display: none;"] {
+  opacity: 0;
+  pointer-events: none;
+  user-select: none;
 }
