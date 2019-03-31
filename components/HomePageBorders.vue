@@ -47,10 +47,6 @@
   </div>
 </template>
 
-<script>
-export default { }
-</script>
-
 <style scoped>
 .screen-edge {
   background-color: RGBA(239, 242, 243, 0.02);
