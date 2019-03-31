@@ -30,7 +30,8 @@ export default {
     '~/assets/fonts/webfont.css',
     '~/assets/css/reset.css',
     '~/assets/css/tailwind.css',
-    '~/assets/css/margin-padding.css'
+    '~/assets/css/margin-padding.css',
+    '~/assets/css/colors.css'
   ],
 
   /*

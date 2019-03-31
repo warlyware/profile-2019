@@ -1,12 +1,12 @@
 <template>
   <div class="text-white">
     <div class="name-left tracking-wide screen-edge text-xl flex justify-center absolute min-h-screen pin-r pin-t shadow-lg">
-      <h1 class="mx-2">
+      <h1 class="mx-2 font-light">
         :: DAN WARD ::
       </h1>
     </div>
     <div class="name-right tracking-wide screen-edge text-xl flex justify-center absolute min-h-screen pin-l pin-t shadow-lg">
-      <h1 class="mx-2">
+      <h1 class="mx-2 font-light">
         :: DAN WARD ::
       </h1>
     </div>
