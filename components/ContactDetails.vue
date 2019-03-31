@@ -29,7 +29,7 @@
 </template>
 
 <script>
-import { TimelineLite, TweenLite, Back } from 'gsap/all'
+// import { TimelineLite, TweenLite, Back } from 'gsap/all'
 
 export default {
   mounted() {
@@ -44,11 +44,11 @@ export default {
       const envLid = document.getElementById('env-lid')
       const envPaper = document.getElementById('env-paper')
 
-      const tl = new TimelineLite({
+      const tl = new window.TimelineLite({
         paused: true
       })
 
-      TweenLite.defaultEase = Back.easeOut
+      window.TweenLite.defaultEase = window.Back.easeOut
       tl
         .to(
           envLid,
@@ -88,7 +88,7 @@ export default {
 .st3{fill: #4C96A8;}
 .st4{fill: #211A10;}
 #mail-icon {
-  margin-top: -12rem;
+  margin-top: -18%;
   width: 20rem;
 }
 </style>

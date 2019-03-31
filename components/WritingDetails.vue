@@ -8,7 +8,7 @@
       class="tracking-wide md:text-xl uppercase absolute h-full w-full overflow-y-scroll flex flex-wrap">
         <div v-for="writing in writings"
         :key="writing.name"
-        class="w-full lg:w-1/3 text-center p-4">
+        class="w-full lg:w-1/3 lg:text-center p-4">
           <a class="bg-opaque hover:bg-alt-blue-2 hover:text-brown-dark leading-normal"
           :href="writing.url"
           target="_blank">

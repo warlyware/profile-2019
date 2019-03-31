@@ -16,8 +16,10 @@ export default {
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
       // { rel: 'stylesheet', href: 'https://cdnjs.cloudflare.com/ajax/libs/css-social-buttons/1.3.0/css/zocial.min.css' }
+    ],
+    script: [
+      { src: 'https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.2/TweenMax.min.js', async: true, defer: true }
     ]
-    // script: []
   },
 
   /*

@@ -67,8 +67,8 @@ export default {
       .type('and consultant.')
       .pause(600)
       .exec(async () => {
-        document.getElementsByTagName('body')[0].style.backgroundColor = '#719190'
-        document.getElementById('typed-text').style.color = '#A3B95A'
+        document.getElementsByTagName('body')[0].style.backgroundColor = '#735452'
+        document.getElementById('typed-text').style.color = '#68BFF6'
         await new Promise((resolve, reject) => resolve())
       })
       .break()
@@ -85,8 +85,8 @@ export default {
       .type('from <a href="//www.packtpub.com" target="_blank">Packt Publishing</a>.')
       .pause(600)
       .exec(async () => {
-        document.getElementsByTagName('body')[0].style.backgroundColor = 'tan'
-        document.getElementById('typed-text').style.color = 'maroon'
+        document.getElementsByTagName('body')[0].style.backgroundColor = '#342815'
+        document.getElementById('typed-text').style.color = '#A3B95A'
         await new Promise((resolve, reject) => resolve())
       })
       .break()
@@ -113,12 +113,12 @@ export default {
       .type('')
       .break()
       .type('Thanks for stopping by!')
-      .pause(3000)
-      .break()
-      .type('')
-      .options({ speed: this.typingSpeed.Slow })
-      .break()
-      .type('<img class="w-12 h-12" src="/images/conga-parrot.gif" />')
+      .pause(2000)
+      // .break()
+      // .type('')
+      // .options({ speed: this.typingSpeed.Slow })
+      // .break()
+      // .type('<img class="w-12 h-12" src="/images/conga-parrot.gif" />')
       .exec(async () => {
         document.getElementById('typed-text').style.opacity = '0'
         document.getElementById('go-home').style.opacity = '0'

@@ -7,7 +7,7 @@
       <div
       class="flex flex-wrap tracking-wide uppercase absolute h-full w-full overflow-y-scroll ">
         <div class="flex w-full">
-          <div class="text-5xl w-full hidden lg:w-1/4 lg:flex flex-col justify-around h-full">
+          <div class="text-3xl w-full hidden xl:text-5xl lg:w-1/4 lg:flex flex-col justify-around h-full">
             <div class="flex flex-col justify-center bg-opaque-brown-dark h-full min-h-110">
               Present
             </div>
@@ -16,7 +16,7 @@
               <div>2019</div>
             </div>
           </div>
-          <div class="flex flex-col w-full lg:w-3/4 py-2 px-4 md:py-4 md:px-8 justify-between bg-opaque-blue border-bottom-top-brown-dark">
+          <div class="flex flex-col w-full lg:w-3/4 py-4 lg:py-2 px-4 md:py-4 md:px-8 justify-between bg-opaque-blue border-bottom-top-brown-dark">
             <h1 class="mb-1">Marathon Consulting</h1>
             <h4 class="mb-1 font-light">
               Full Stack Developer | Web Technology Consultant
@@ -46,7 +46,7 @@
           </div>
         </div>
         <div class="flex w-full">
-          <div class="text-5xl w-1/4 flex flex-col justify-around h-full">
+          <div class="text-3xl w-full hidden xl:text-5xl lg:w-1/4 lg:flex flex-col justify-around h-full">
             <div class="flex flex-col justify-center bg-opaque-brown-dark h-full">
               <div>February</div>
               <div>2019</div>
@@ -56,11 +56,14 @@
               <div>2017</div>
             </div>
           </div>
-          <div class="flex flex-col w-3/4 py-2 px-4 md:py-4 md:px-8 justify-between bg-opaque-blue border-bottom-top-brown-dark">
+          <div class="flex flex-col w-full lg:w-3/4 py-2 px-4 md:py-4 md:px-8 justify-between bg-opaque-blue border-bottom-top-brown-dark">
             <h1>React Native Cookbook - Second Edition</h1>
             <h3 class="mb-1">Packt Publishing</h3>
             <h4 class="mb-1 font-light">
               Author
+            </h4>
+            <h4 class="my-2 lg:hidden font-light">
+              December 2017 - February 2019
             </h4>
             <div class="flex flex-col justify-center h-full">
               <div class="py-2">
@@ -84,7 +87,7 @@
           </div>
         </div>
         <div class="flex w-full">
-          <div class="text-5xl w-1/4 flex flex-col justify-around h-full">
+          <div class="text-3xl w-full hidden xl:text-5xl lg:w-1/4 lg:flex flex-col justify-around h-full">
             <div class="flex flex-col justify-center bg-opaque-brown-dark h-full">
               <div>December</div>
               <div>2018</div>
@@ -94,11 +97,14 @@
               <div>2015</div>
             </div>
           </div>
-          <div class="flex flex-col w-3/4 py-2 px-4 md:py-4 md:px-8 justify-between bg-opaque-blue border-bottom-top-brown-dark">
+          <div class="flex flex-col w-full lg:w-3/4 py-2 px-4 md:py-4 md:px-8 justify-between bg-opaque-blue border-bottom-top-brown-dark">
             <h1>ForRent.com | Apartments.com</h1>
             <h3 class="mb-1">Costar Group</h3>
             <h4 class="mb-2 font-light">
               Full Stack Developer
+            </h4>
+            <h4 class="my-2 lg:hidden font-light">
+              November 2015 - December 2018
             </h4>
             <div class="py-2">
               <p class="text-lg font-bold">
@@ -124,7 +130,7 @@
           </div>
         </div>
         <div class="flex w-full">
-          <div class="text-5xl w-1/4 flex flex-col justify-around h-full">
+          <div class="text-3xl w-full hidden xl:text-5xl lg:w-1/4 lg:flex flex-col justify-around h-full">
             <div class="flex flex-col justify-center bg-opaque-brown-dark h-full">
               <div>May</div>
               <div>2015</div>
@@ -134,11 +140,14 @@
               <div>2014</div>
             </div>
           </div>
-          <div class="flex flex-col w-3/4 py-2 px-4 md:py-4 md:px-8 justify-between bg-opaque-blue border-bottom-top-brown-dark">
-            <h1>Center for Iflammation & Mucosal Immunology</h1>
+          <div class="flex flex-col w-full lg:w-3/4 py-2 px-4 md:py-4 md:px-8 justify-between bg-opaque-blue border-bottom-top-brown-dark">
+            <h1>Center for Inflammation & Mucosal Immunology</h1>
             <h3 class="mb-1">University of Florida</h3>
             <h4 class="mb-2 font-light">
               Editor | Senior Secretary
+            </h4>
+            <h4 class="my-2 lg:hidden font-light">
+              April 2014 - May 2015
             </h4>
             <div class="flex flex-col justify-center h-full">
               <p>
@@ -163,9 +172,6 @@ export default {
 </script>
 
 <style>
-  /* .mb--1 {
-    margin-bottom: -1px;
-  } */
   .border-bottom-top-brown-dark {
     border-top: solid 1px #211A10;
     border-bottom: solid 1px #211A10;
