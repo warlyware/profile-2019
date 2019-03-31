@@ -1,9 +1,6 @@
 <template>
   <div class="wrapper">
-    <div class="colorizer1" />
-    <!-- <div class="colorizer2" /> -->
-    <!-- <div class="colorizer3" /> -->
-    <!-- <div class="colorizer4" /> -->
+    <!-- <div class="colorizer1" />
     <div class="circles">
       <div class="circle" />
       <div class="circle" />
@@ -15,23 +12,63 @@
       <div class="circle" />
       <div class="circle" />
       <div class="circle" />
-    </div>
-    <div class="px-24 py-16 mx-auto flex flex-col items-center min-h-screen text-grey">
-      <h1 class="tracking-loose text-5xl">
-        :: DAN WARD ::
+    </div> -->
+    <div class="name-left tracking-wide screen-edge text-white text-xl flex justify-center absolute min-h-screen pin-r pin-t shadow-lg">
+      <h1 class="mx-2">
+        {{ name }}
       </h1>
-      <div class="flex items-center text-3xl my-8">
-        <nuxt-link to="code">
-          Code
-        </nuxt-link>
-        <div class="mx-16">|</div>
-        <nuxt-link to="writing">
-          Writing
-        </nuxt-link>
-        <div class="mx-16">|</div>
-        <nuxt-link to="code">
-          Contact
-        </nuxt-link>
+    </div>
+    <div class="name-right tracking-wide screen-edge text-white text-xl flex justify-center absolute min-h-screen pin-l pin-t shadow-lg">
+      <h1 class="mx-2">
+        {{ name }}
+      </h1>
+    </div>
+    <div class="tracking-wide screen-edge text-xl flex justify-center items-center absolute w-screen pin-t shadow-lg uppercase">
+      <nuxt-link class="my-4" to="home">
+        Proficiencies
+      </nuxt-link>
+      <div class="mx-8">
+        |
+      </div>
+      <nuxt-link class="my-4" to="code">
+        Code
+      </nuxt-link>
+      <div class="mx-8">
+        |
+      </div>
+      <nuxt-link class="my-4" to="writing">
+        Writing
+      </nuxt-link>
+      <div class="mx-8">
+        |
+      </div>
+      <nuxt-link class="my-4" to="code">
+        Contact
+      </nuxt-link>
+    </div>
+    <div class="tracking-wide screen-edge text-xl flex justify-center items-center absolute w-screen pin-b shadow-lg uppercase">
+      <a class="my-4" href="//github.com/warlyware" target="_blank">
+        GitHub
+      </a>
+      <div class="mx-8">
+        |
+      </div>
+      <a class="my-4" href="//twitter.com/warlyware" target="_blank">
+        Twitter
+      </a>
+    </div>
+    <div class="px-32 py-16 flex flex-col justify-center items-center text-white h-screen">
+      <h2 class="self-center text-3xl uppercase mb-16">
+        Proficiencies
+      </h2>
+      <div class="tracking-wide text-4xl uppercase ml--16">
+        <div class="flex flex-wrap content-between text-center">
+          <div v-for="proficiency in proficiencies"
+          :key="proficiency"
+          class="ml-16 flex-grow my-4 text-center">
+            {{ proficiency }}
+          </div>
+        </div>
       </div>
     </div>
   </div>
@@ -39,6 +76,46 @@
 
 <script>
 export default {
+  data() {
+    return {
+      name: ':: DAN WARD ::',
+      proficiencies: [
+        'React',
+        'Vue',
+        'Redux',
+        'Vuex',
+        'NgRx',
+        'Nuxt',
+        'Angular',
+        'React Native',
+        'TypeScript',
+        'CSS',
+        'Flexbox',
+        'SASS',
+        'LESS',
+        'Responsive Design',
+        'Advanced Layouts',
+        'PostCSS',
+        'Node',
+        'Webpack',
+        'Server Side Rendering',
+        'Modern JavaScript',
+        'D3',
+        'Highcharts',
+        'RxJS',
+        'MongoDB',
+        'Unit Testing',
+        'Google Maps',
+        'Grunt',
+        'Gulp',
+        'Tailwind CSS',
+        'Git',
+        'Agile',
+        'Jira',
+        'Technical Writing'
+      ]
+    }
+  },
   methods: {
     getRandom(min, max) {
       return Math.floor(Math.random() * (max - min + 1)) + min
@@ -72,14 +149,36 @@ export default {
 </script>
 
 <style lang="scss">
-
+a {
+  text-decoration: none;
+}
 body {
   background: linear-gradient(to top left, #342815, 10%, #211a10 20%,  #211a10 50%, #211a10);
   height: 100vh;
   overflow: hidden;
 }
-// $primary_colors: #719190 #8AB1B0 #418292 #4C96A8 #889B4A #A3B95A #7E5053 #98676A #F79A32 #FCAC51;
+
 $primary_colors: #719190 #8AB1B0 #418292 #4C96A8 #889B4A #A3B95A #F79A32 #FCAC51;
+
+.ml--16 {
+  margin-left: -4rem;
+}
+.screen-edge {
+  background-color: RGBA(239, 242, 243, 0.02);
+}
+.name-right {
+  writing-mode: vertical-rl;
+  text-orientation: mixed;
+}
+.name-left {
+  h1 {
+    opacity: 1;
+  }
+  background-color: RGBA(239, 242, 243, 0.02);
+  writing-mode: vertical-rl;
+  text-orientation: mixed;
+  transform: rotate(180deg);
+}
 
 #canvas {
   position: absolute;
@@ -97,7 +196,7 @@ $primary_colors: #719190 #8AB1B0 #418292 #4C96A8 #889B4A #A3B95A #F79A32 #FCAC51
 
 @function create-palette() {
   $palette: ();
-  @for $i from 1 through 150{
+  @for $i from 1 through 5 {
     $palette: append(
         $palette,
         mix(
@@ -119,16 +218,16 @@ $palette: create-palette();
   .circle:nth-child(#{index($palette, $color)}){
     background: $color;
     box-shadow: 0 0 random(10) + px random(10) + px $color;
-    top: random(100) + 0%;
-    left: random(100) + 0%;
+    top: random(50) + 0%;
+    left: random(50) + 0%;
     width: $size;
     height: $size;
-    opacity: random(100) / 500;
-    animation: float#{index($palette, $color)} 20s infinite linear;
+    opacity: random(100) / 300;
+    animation: float#{index($palette, $color)} 125s infinite linear;
   }
 }
 
-@for $i from 1 through 150 {
+@for $i from 1 through 5 {
   $movex: random(100) - 20 + px;
   $movey: random(400) - 300 + px;
   $movex2: random(200) - 50 + px;
