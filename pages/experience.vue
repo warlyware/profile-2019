@@ -1,17 +1,16 @@
 <template>
   <div>
-    <code-details />
+    <experience-details />
   </div>
 </template>
 
 <script>
-import CodeDetails from '~/components/CodeDetails'
+import ExperienceDetails from '~/components/ExperienceDetails'
 
 export default {
   components: {
-    CodeDetails
+    ExperienceDetails
   },
-  // transition: 'slide-right',
   layout: 'main'
 }
 </script>

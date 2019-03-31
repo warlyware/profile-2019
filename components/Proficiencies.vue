@@ -1,6 +1,6 @@
 <template>
   <div class="px-8 md:px-32 py-16 flex flex-col justify-center items-center h-screen">
-    <h2 class="self-center text-3xl uppercase my-8 font-light">
+    <h2 class="self-center text-3xl uppercase mb-4 md:mt-8 font-light">
       Proficiencies
     </h2>
     <div class="relative w-full h-full max-w-xl overflow-hidden">

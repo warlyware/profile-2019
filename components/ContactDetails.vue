@@ -1,10 +1,10 @@
 <template>
   <div class="px-8 md:px-32 py-16 flex flex-col justify-center items-center h-screen text-white ml--16">
-    <h2 class="self-center text-3xl uppercase my-8 font-light">
+    <h2 class="self-center text-3xl uppercase mb-4 md:mt-8 font-light">
       Contact
     </h2>
     <div class="relative w-full h-full overflow-hidden flex justify-center items-center">
-      <svg class="cursor-pointer" id="mail-icon" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+      <svg id="mail-icon" class="cursor-pointer" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
       viewBox="96.3 -4.7 45.1 46.2" style="enable-background:new 96.3 -4.7 45.1 46.2;" xml:space="preserve">
         <path class="st0" d="M138.2,10.5H99.5c-1.7,0-3.1,1.4-3.1,3.1v24.8c0,1.7,1.4,3.1,3.1,3.1h38.7c1.7,0,3.1-1.4,3.1-3.1V13.6
           C141.3,11.9,139.9,10.5,138.2,10.5z" />
