@@ -4,7 +4,6 @@ html {
   transition: opacity 0.4s linear;
 }
 body {
-  background-color: #000;
   transition: background-color 0.7s linear;
   overflow-y: hidden;
 }
@@ -14,4 +13,16 @@ body {
 }
 .page-enter, .page-leave-active {
   opacity: 0;
+}
+
+#typed-text {
+  color: #f6f6f6;
+  opacity: 1;
+  transition: color 0.7s linear;
+  transition: opacity 0.3s linear;
+  transition: width 0.3s linear;
+  transition: font-size 0.3s linear;
+  a {
+    color: inherit;
+  }
 }
