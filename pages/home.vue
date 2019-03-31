@@ -1,51 +1,8 @@
 <template>
-  <div>
+  <div class="text-white">
     <bokeh />
-    <div class="name-left tracking-wide screen-edge text-white text-xl flex justify-center absolute min-h-screen pin-r pin-t shadow-lg">
-      <h1 class="mx-2">
-        {{ name }}
-      </h1>
-    </div>
-    <div class="name-right tracking-wide screen-edge text-white text-xl flex justify-center absolute min-h-screen pin-l pin-t shadow-lg">
-      <h1 class="mx-2">
-        {{ name }}
-      </h1>
-    </div>
-    <div class="tracking-wide screen-edge text-xl flex justify-center items-center absolute w-screen pin-t shadow-lg uppercase">
-      <nuxt-link class="my-4" to="home">
-        Proficiencies
-      </nuxt-link>
-      <div class="mx-8">
-        |
-      </div>
-      <nuxt-link class="my-4" to="code">
-        Code
-      </nuxt-link>
-      <div class="mx-8">
-        |
-      </div>
-      <nuxt-link class="my-4" to="writing">
-        Writing
-      </nuxt-link>
-      <div class="mx-8">
-        |
-      </div>
-      <nuxt-link class="my-4" to="code">
-        Contact
-      </nuxt-link>
-    </div>
-    <div class="tracking-wide screen-edge text-xl flex justify-center items-center absolute w-screen pin-b shadow-lg uppercase">
-      <a class="my-4" href="//github.com/warlyware" target="_blank">
-        GitHub
-      </a>
-      <div class="mx-8">
-        |
-      </div>
-      <a class="my-4" href="//twitter.com/warlyware" target="_blank">
-        Twitter
-      </a>
-    </div>
-    <div class="px-32 py-16 flex flex-col justify-center items-center text-white h-screen">
+    <home-page-borders />
+    <div class="px-32 py-16 flex flex-col justify-center items-center h-screen">
       <h2 class="self-center text-3xl uppercase mb-16">
         Proficiencies
       </h2>
@@ -64,13 +21,15 @@
 
 <script>
 import Bokeh from '~/components/Bokeh.vue'
+import HomePageBorders from '~/components/HomePageBorders.vue'
+
 export default {
   components: {
-    Bokeh
+    Bokeh,
+    HomePageBorders
   },
   data() {
     return {
-      name: ':: DAN WARD ::',
       proficiencies: [
         'React',
         'Vue',
@@ -122,21 +81,5 @@ a {
 }
 .ml--16 {
   margin-left: -4rem;
-}
-.screen-edge {
-  background-color: RGBA(239, 242, 243, 0.02);
-}
-.name-right {
-  writing-mode: vertical-rl;
-  text-orientation: mixed;
-}
-.name-left {
-  h1 {
-    opacity: 1;
-  }
-  background-color: RGBA(239, 242, 243, 0.02);
-  writing-mode: vertical-rl;
-  text-orientation: mixed;
-  transform: rotate(180deg);
 }
 </style>
