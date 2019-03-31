@@ -1,7 +1,7 @@
 <template>
-  <div id="main-screen-fade-in">
+  <div id="main-screen-fade-in" class="w-full h-full overflow-hidden absolute">
     <bokeh />
-    <home-page-borders />
+    <home-page-borders class="invisible md:visible" />
     <nuxt />
   </div>
 </template>

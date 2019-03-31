@@ -1,11 +1,11 @@
 <template>
-  <div class="px-32 py-16 flex flex-col justify-center items-center h-screen text-white">
+  <div class="px-8 md:px-32 py-16 flex flex-col justify-center items-center h-screen text-white">
     <h2 class="self-center text-3xl uppercase my-8 font-light">
       Writing
     </h2>
     <div class="relative w-full h-full overflow-hidden">
       <div
-      class="tracking-wide text-xl uppercase absolute h-full w-full overflow-y-scroll flex flex-wrap">
+      class="tracking-wide md:text-xl uppercase absolute h-full w-full overflow-y-scroll flex flex-wrap">
         <div v-for="writing in writings"
         :key="writing.name"
         class="w-full lg:w-1/3 text-center p-4">

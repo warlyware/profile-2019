@@ -1,11 +1,11 @@
 <template>
-  <div class="px-32 py-16 flex flex-col justify-center items-center h-screen">
+  <div class="px-8 md:px-32 py-16 flex flex-col justify-center items-center h-screen">
     <h2 class="self-center text-3xl uppercase my-8 font-light">
       Proficiencies
     </h2>
     <div class="relative w-full h-full max-w-xl overflow-hidden">
       <div
-      class="tracking-wide text-xl lg:text-3xl uppercase absolute h-full w-full overflow-y-scroll flex flex-wrap text-justify md:text-center">
+      class="tracking-wide md:text-xl lg:text-3xl uppercase absolute h-full w-full overflow-y-scroll flex flex-wrap text-justify md:text-center">
         <div v-for="proficiency in proficiencies"
         :key="proficiency"
         class="p-4 flex-grow">
