@@ -17,6 +17,8 @@ module.exports = {
     'vue/html-indent': 0,
     'no-console': 1,
     'no-useless-escape': 1,
-    'prefer-const': 1
+    'prefer-const': 1,
+    'vue/html-closing-bracket-newline': 0,
+    'vue/no-unused-components': 1
   }
 }

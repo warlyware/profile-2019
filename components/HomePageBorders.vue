@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="text-white">
     <div class="name-left tracking-wide screen-edge text-xl flex justify-center absolute min-h-screen pin-r pin-t shadow-lg">
       <h1 class="mx-2">
         :: DAN WARD ::

@@ -1,7 +1,6 @@
 <template>
   <div class="text-white">
     <bokeh />
-    <home-page-borders />
     <proficiencies />
   </div>
 </template>
@@ -9,12 +8,11 @@
 <script>
 import Bokeh from '~/components/Bokeh.vue'
 import Proficiencies from '~/components/Proficiencies.vue'
-import HomePageBorders from '~/components/HomePageBorders.vue'
 
 export default {
+  layout: 'main',
   components: {
     Bokeh,
-    HomePageBorders,
     Proficiencies
   }
 }
