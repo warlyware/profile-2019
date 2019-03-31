@@ -15,19 +15,19 @@
         Proficiencies
       </nuxt-link>
       <div class="mx-8">
-        |
+        ::
       </div>
       <nuxt-link class="my-4" to="code">
         Code
       </nuxt-link>
       <div class="mx-8">
-        |
+        ::
       </div>
       <nuxt-link class="my-4" to="writing">
         Writing
       </nuxt-link>
       <div class="mx-8">
-        |
+        ::
       </div>
       <nuxt-link class="my-4" to="code">
         Contact
@@ -38,7 +38,7 @@
         GitHub
       </a>
       <div class="mx-8">
-        |
+        ::
       </div>
       <a class="my-4" href="//twitter.com/warlyware" target="_blank">
         Twitter

@@ -24,7 +24,4 @@ body {
 a {
   text-decoration: none;
 }
-.ml--16 {
-  margin-left: -4rem;
-}
 </style>

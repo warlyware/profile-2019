@@ -29,7 +29,8 @@ export default {
   css: [
     '~/assets/fonts/webfont.css',
     '~/assets/css/reset.css',
-    '~/assets/css/tailwind.css'
+    '~/assets/css/tailwind.css',
+    '~/assets/css/margin-padding.css'
   ],
 
   /*
