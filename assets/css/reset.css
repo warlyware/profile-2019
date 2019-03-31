@@ -23,6 +23,9 @@ html {
   margin: 0;
 }
 
-/* nuxt-link, a {
-  text-decoration: none;
-} */
+.page-enter-active, .page-leave-active {
+  transition: opacity .3s
+}
+.page-enter, .page-leave-active {
+  opacity: 0
+}

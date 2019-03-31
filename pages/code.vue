@@ -11,6 +11,7 @@ export default {
   components: {
     CodeDetails
   },
+  // transition: 'slide-right',
   layout: 'main'
 }
 </script>

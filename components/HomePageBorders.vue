@@ -29,7 +29,7 @@
       <div class="mx-8">
         ::
       </div>
-      <nuxt-link class="my-4" to="code">
+      <nuxt-link class="my-4" to="contact">
         Contact
       </nuxt-link>
     </div>
