@@ -136,11 +136,6 @@ export default {
 </script>
 
 <style lang="scss">
-body {
-  background-color: #000;
-  transition: background-color 0.8s linear;
-  overflow-y: hidden;
-}
 #typed-text {
   color: #f6f6f6;
   transition: color 0.7s linear 0.3s;

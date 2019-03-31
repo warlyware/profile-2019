@@ -27,11 +27,15 @@ export default {
         this.$router.push('home')
       }, 500)
     }
+  },
+  beforeRouteEnter(to, from, next) {
+    if (to.name === 'index' && from.name) return window.location.reload(true)
+    next()
   }
 }
 </script>
 
-<style scoped>
+<style>
   #go-home {
     transition: opacity 0.3s linear;
     top: calc(50% - 32px);
