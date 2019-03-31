@@ -7,7 +7,7 @@ export default {
   ** Headers of the page
   */
   head: {
-    title: pkg.name,
+    title: 'DAN WARD',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
@@ -15,7 +15,9 @@ export default {
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
+      // { rel: 'stylesheet', href: 'https://cdnjs.cloudflare.com/ajax/libs/css-social-buttons/1.3.0/css/zocial.min.css' }
     ]
+    // script: []
   },
 
   /*
@@ -32,7 +34,8 @@ export default {
     '~/assets/css/tailwind.css',
     '~/assets/css/margin-padding.css',
     '~/assets/css/colors.css',
-    '~/assets/css/transitions.css'
+    '~/assets/css/transitions.css',
+    '~/assets/css/icons.css'
   ],
 
   /*
