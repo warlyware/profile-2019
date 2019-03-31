@@ -30,3 +30,9 @@ ul {
 p {
   @apply tracking-normal;
 }
+button {
+  outline: 0;
+}
+button:focus {
+  outline: 0 !important;
+}
