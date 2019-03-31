@@ -2,11 +2,10 @@ html {
   opacity: 1;
   background-color: #fff;
   transition: opacity 0.4s linear;
-  transition: background-color 0.7s linear;
 }
 body {
   background-color: #000;
-  transition: background-color 0.8s linear;
+  transition: background-color 0.7s linear;
   overflow-y: hidden;
 }
 

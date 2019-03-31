@@ -95,7 +95,7 @@ $palette: create-palette();
     left: random(50) + 0%;
     width: $size;
     height: $size;
-    opacity: random(100) / 250;
+    opacity: random(50) / 230;
     animation: float#{index($palette, $color)} 125s infinite linear;
   }
 }
@@ -117,13 +117,13 @@ $palette: create-palette();
 
 .colorizer {
   position: absolute;
-  width: 300px;
-  height: 300px;
+  width: 100rem;
+  height: 100rem;
   filter: blur(130px);
   top: 100%;
   left: 95%;
   border-radius: 50%;
-  background: linear-gradient(135deg, #342815, #805dcd);
+  background: linear-gradient(135deg, #211A10, #342815);
 }
 
 @keyframes spin {

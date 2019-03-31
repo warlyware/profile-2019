@@ -31,7 +31,7 @@ export default {
       // document.getElementById('main-screen-fade-in').style.backgroundColor = '#fff'
       setTimeout(() => {
         window.location = '/'
-      }, 700)
+      }, 600)
     }
   }
 }
