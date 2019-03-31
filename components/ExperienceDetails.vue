@@ -1,5 +1,5 @@
 <template>
-  <div class="px-32 py-16 flex flex-col justify-center items-center h-screen text-white ml--16 max-w-5xl mx-auto">
+  <div class="px-8 md:px-32 py-16 flex flex-col justify-center items-center h-screen text-white ml--16 max-w-5xl mx-auto">
     <h2 class="self-center text-3xl uppercase mb-4 md:mt-8 font-light">
       Experience
     </h2>
@@ -7,7 +7,7 @@
       <div
       class="flex flex-wrap tracking-wide uppercase absolute h-full w-full overflow-y-scroll ">
         <div class="flex w-full">
-          <div class="text-5xl w-1/4 flex flex-col justify-around h-full">
+          <div class="text-5xl w-full hidden lg:w-1/4 lg:flex flex-col justify-around h-full">
             <div class="flex flex-col justify-center bg-opaque-brown-dark h-full min-h-110">
               Present
             </div>
@@ -16,10 +16,13 @@
               <div>2019</div>
             </div>
           </div>
-          <div class="flex flex-col w-3/4 py-2 px-4 md:py-4 md:px-8 justify-between bg-opaque-blue border-bottom-top-brown-dark">
+          <div class="flex flex-col w-full lg:w-3/4 py-2 px-4 md:py-4 md:px-8 justify-between bg-opaque-blue border-bottom-top-brown-dark">
             <h1 class="mb-1">Marathon Consulting</h1>
             <h4 class="mb-1 font-light">
               Full Stack Developer | Web Technology Consultant
+            </h4>
+            <h4 class="my-2 lg:hidden font-light">
+              Present - January 2019
             </h4>
             <div class="flex flex-col justify-center h-full">
               <div class="py-2">

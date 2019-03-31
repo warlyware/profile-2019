@@ -3,12 +3,12 @@
     <h2 class="self-center text-3xl uppercase mb-4 md:mt-8 font-light">
       Proficiencies
     </h2>
-    <div class="relative w-full h-full max-w-xl overflow-hidden">
+    <div class="relative w-full h-full max-w-2xl overflow-hidden">
       <div
       class="tracking-wide md:text-xl lg:text-3xl uppercase absolute h-full w-full overflow-y-scroll flex flex-wrap text-justify md:text-center">
         <div v-for="proficiency in proficiencies"
         :key="proficiency"
-        class="p-4 flex-grow">
+        class="p-2 lg:p-4 flex-grow">
           <span class="bg-opaque hover:bg-alt-blue-2 hover:text-brown-dark ">
             {{ proficiency }}
           </span>

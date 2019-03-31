@@ -3,7 +3,7 @@
     <h2 class="self-center text-3xl uppercase mb-4 md:mt-8 font-light">
       Writing
     </h2>
-    <div class="relative w-full h-full overflow-hidden">
+    <div class="relative w-full h-full overflow-hidden max-w-2xl mx-auto">
       <div
       class="tracking-wide md:text-xl uppercase absolute h-full w-full overflow-y-scroll flex flex-wrap">
         <div v-for="writing in writings"

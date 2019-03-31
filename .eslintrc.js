@@ -19,6 +19,7 @@ module.exports = {
     'no-useless-escape': 1,
     'prefer-const': 1,
     'vue/html-closing-bracket-newline': 0,
-    'vue/no-unused-components': 1
+    'vue/no-unused-components': 1,
+    'vue/singleline-html-element-content-newline': 0
   }
 }
