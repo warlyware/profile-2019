@@ -33,7 +33,7 @@ export default {
     '~/assets/css/reset.css',
     '~/assets/css/tailwind.css',
     '~/assets/css/margin-padding.css',
-    '~/assets/css/colors.css',
+    '~/assets/css/colors.scss',
     '~/assets/css/transitions.css',
     '~/assets/css/icons.css'
   ],

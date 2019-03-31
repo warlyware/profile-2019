@@ -1,0 +1,8 @@
+$bokeh-colors: #719190 #8AB1B0 #418292 #4C96A8 #889B4A #A3B95A #F79A32 #FCAC51;
+
+.bg-opaque {
+  background-color: RGBA(239, 242, 243, 0.1);
+  transition: background-color 0.3s linear;
+  transition: color 0.2s linear;
+}
+

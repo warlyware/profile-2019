@@ -9,7 +9,7 @@
         <div v-for="proficiency in proficiencies"
         :key="proficiency"
         class="p-4 flex-grow">
-          <span class="bg-opaque">
+          <span class="bg-opaque hover:bg-alt-blue-2 hover:text-brown-dark ">
             {{ proficiency }}
           </span>
         </div>

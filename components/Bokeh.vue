@@ -51,7 +51,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-$primary_colors: #719190 #8AB1B0 #418292 #4C96A8 #889B4A #A3B95A #F79A32 #FCAC51;
+@import '~/assets/css/colors.scss';
 
 #canvas {
   position: absolute;
@@ -74,10 +74,10 @@ $primary_colors: #719190 #8AB1B0 #418292 #4C96A8 #889B4A #A3B95A #F79A32 #FCAC51
         $palette,
         mix(
           nth(
-            $primary_colors,
-            random(length($primary_colors))),
-            nth($primary_colors,
-            random(length($primary_colors))),
+            $bokeh-colors,
+            random(length($bokeh-colors))),
+            nth($bokeh-colors,
+            random(length($bokeh-colors))),
             60%
           )
       );

@@ -44,6 +44,20 @@ View the full documentation at https://tailwindcss.com.
 const colors = {
   'transparent': 'transparent',
 
+  'alt-blue-1': '#719190',
+  'alt-blue-2': '#8AB1B0',
+  'alt-blue-3': '#418292',
+  'alt-blue-4': '#4C96A8',
+
+  'alt-green-1': '#889B4A',
+  'alt-green-2': '#A3B95A',
+
+  'alt-orange-1': '#F79A32',
+  'alt-orange-2': '#FCAC51',
+
+  'brown-light': '#805d5c',
+  'brown-dark': '#211A10',
+
   'black': '#22292f',
   'grey-darkest': '#3d4852',
   'grey-darker': '#606f7b',
@@ -124,9 +138,7 @@ const colors = {
   'pink': '#f66d9b',
   'pink-light': '#fa7ea8',
   'pink-lighter': '#ffbbca',
-  'pink-lightest': '#ffebef',
-
-  'brown-dark': '#805d5c'
+  'pink-lightest': '#ffebef'
 }
 
 module.exports = {
