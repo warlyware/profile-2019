@@ -20,7 +20,7 @@ export default {
   components: { TypedText },
   methods: {
     async goToHome() {
-      document.getElementsByTagName('body')[0].style.backgroundColor = '#FFF9C2'
+      document.getElementsByTagName('body')[0].style.backgroundColor = '#211A10'
       document.getElementById('typed-text').style.opacity = '0'
       document.getElementById('go-home').style.opacity = '0'
       await setTimeout(() => {

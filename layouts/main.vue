@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div id="main-screen-fade-in">
     <bokeh />
     <home-page-borders />
     <nuxt />
@@ -14,6 +14,18 @@ export default {
   components: {
     Bokeh,
     HomePageBorders
+  },
+  mounted() {
+    setTimeout(() => {
+      document.getElementById('main-screen-fade-in').style.opacity = 1
+    }, 100)
   }
 }
 </script>
+
+<style scoped>
+#main-screen-fade-in {
+  opacity: 0;
+  transition: opacity 0.7s linear;
+}
+</style>

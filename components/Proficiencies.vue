@@ -3,7 +3,7 @@
     <h2 class="self-center text-3xl uppercase my-8 font-light">
       Proficiencies
     </h2>
-    <div class="relative w-full h-full overflow-hidden">
+    <div class="relative w-full h-full max-w-xl overflow-hidden">
       <div
       class="tracking-wide text-xl lg:text-3xl uppercase absolute h-full w-full overflow-y-scroll flex flex-wrap text-justify md:text-center">
         <div v-for="proficiency in proficiencies"

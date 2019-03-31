@@ -95,7 +95,7 @@ $palette: create-palette();
     left: random(50) + 0%;
     width: $size;
     height: $size;
-    opacity: random(100) / 300;
+    opacity: random(100) / 250;
     animation: float#{index($palette, $color)} 125s infinite linear;
   }
 }

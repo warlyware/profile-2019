@@ -136,25 +136,21 @@ export default {
 </script>
 
 <style lang="scss">
-  body {
-    background-color: #000;
-    transition: background-color 0.8s linear;
-    overflow-y: hidden;
+body {
+  background-color: #000;
+  transition: background-color 0.8s linear;
+  overflow-y: hidden;
+}
+#typed-text {
+  color: #f6f6f6;
+  transition: color 0.7s linear 0.3s;
+  transition: opacity 0.3s linear;
+  transition: width 0.3s linear;
+  transition: font-size 0.3s linear;
+  a {
+    color: inherit;
+    transition: color 0.2s linear;
+    transition: background-color 0.2s linear;
   }
-  #typed-text {
-    color: #f6f6f6;
-    transition: color 0.7s linear 0.3s;
-    transition: opacity 0.3s linear;
-    transition: width 0.3s linear;
-    transition: font-size 0.3s linear;
-    a {
-      color: inherit;
-      transition: color 0.2s linear;
-      transition: background-color 0.2s linear;
-    }
-    a:hover {
-      background-color: #3D4852;
-      color: #B8C2CC;
-    }
-  }
+}
 </style>

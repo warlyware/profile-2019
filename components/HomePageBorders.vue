@@ -1,16 +1,16 @@
 <template>
   <div class="text-white">
     <div class="name-left tracking-wide screen-edge text-xl flex justify-center absolute min-h-screen pin-r pin-t shadow-lg">
-      <h1 class="mx-2 font-light">
+      <div class="mx-4 text-xl">
         :: DAN WARD ::
-      </h1>
+      </div>
     </div>
     <div class="name-right tracking-wide screen-edge text-xl flex justify-center absolute min-h-screen pin-l pin-t shadow-lg">
-      <h1 class="mx-2 font-light">
+      <div class="mx-4 text-xl">
         :: DAN WARD ::
-      </h1>
+      </div>
     </div>
-    <div class=" tracking-wide screen-edge text-xl flex justify-center items-center absolute w-screen pin-t shadow-lg uppercase">
+    <div class="tracking-wide screen-edge text-xl flex justify-center items-center absolute w-screen pin-t shadow-lg uppercase">
       <nuxt-link class="my-4" to="home">
         Proficiencies
       </nuxt-link>
