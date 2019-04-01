@@ -1,5 +1,5 @@
 <template>
-  <div class="px-8 md:px-32 py-16 flex flex-col justify-center items-center h-screen text-white ml--16 max-w-5xl mx-auto">
+  <div class="py-16 pb-24 md:px-32 flex flex-col justify-center items-center h-screen text-white ml--16 max-w-5xl mx-auto">
     <h2 class="self-center text-3xl uppercase mb-4 md:mt-8 font-light">
       Experience
     </h2>

@@ -1,8 +1,8 @@
 <template>
-  <div id="main-screen-fade-in" class="w-full h-full overflow-hidden absolute">
-    <button class="z-20 flex shadow-lg items-center justify-center pin-r pin-t absolute rounded-full bg-white w-16 h-16 mt-4 mr-4 md:hidden"
+  <div id="main-screen-fade-in" class="w-full h-screen overflow-hidden absolute">
+    <button class="z-20 flex shadow-lg items-center justify-center pin-r pin-t fixed rounded-full bg-white w-12 h-12 mt-4 mr-4 md:hidden"
     @click="toggleMobileMenu">
-      <div v-show="mobileMenuIsOpen" class="mt--2 text-5xl bold">
+      <div v-show="mobileMenuIsOpen" class="mt--1 text-5xl bold">
         -
       </div>
       <div v-show="!mobileMenuIsOpen" class="mt--1 text-5xl bold">
@@ -11,7 +11,7 @@
     </button>
     <div v-show="mobileMenuIsOpen"
     id="mobile-menu"
-    class="z-10 text-3xl absolute w-screen h-screen bg-brown-dark v-fade">
+    class="pb-12 z-10 text-2xl fixed w-screen h-screen bg-brown-dark v-fade">
       <div class="flex flex-col justify-center items-center w-full h-full">
         <button class="bg-opaque hover:bg-alt-blue-2 hover:text-brown-dark my-4 mx-4 text-white"
         @click="navigateTo('home')">
