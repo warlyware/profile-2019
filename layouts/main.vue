@@ -15,7 +15,7 @@
       <div class="flex flex-col justify-center items-center w-full h-full">
         <button class="bg-opaque hover:bg-alt-blue-2 hover:text-brown-dark my-4 mx-4 text-white"
         @click="navigateTo('home')">
-          Proficiencies
+          Skills
         </button>
         <button class="bg-opaque hover:bg-alt-blue-2 hover:text-brown-dark my-4 mx-4 text-white"
         @click="navigateTo('experience')">

@@ -1,16 +1,16 @@
 <template>
   <div class="text-white">
-    <proficiencies />
+    <skills />
   </div>
 </template>
 
 <script>
-import Proficiencies from '~/components/Proficiencies.vue'
+import Skills from '~/components/Skills.vue'
 
 export default {
   layout: 'main',
   components: {
-    Proficiencies
+    Skills
   }
 }
 </script>

@@ -92,7 +92,7 @@ export default {
       .type('')
       .break()
       .type('Thanks for stopping by!')
-      .pause(2000)
+      .pause(1000)
       // .break()
       // .type('')
       // .options({ speed: this.typingSpeed.Slow })
