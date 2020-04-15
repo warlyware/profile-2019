@@ -101,9 +101,9 @@ $palette: create-palette();
 }
 
 @for $i from 1 through 5 {
-  $movex: random(100) - 20 + px;
+  $movex: random(300) - 20 + px;
   $movey: random(400) - 300 + px;
-  $movex2: random(200) - 50 + px;
+  $movex2: random(300) - 50 + px;
   $movey2: random(400) - 100 + px;
   @keyframes float#{$i} {
     40% {
