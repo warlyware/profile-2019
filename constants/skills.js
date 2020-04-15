@@ -34,6 +34,11 @@ export default [{
   description: 'A subset of React for developing mobile apps.',
   yearsOfExperience: '1.5'
 }, {
+  name: 'GraphQL',
+  url: '//graphql.org/',
+  description: 'A query language for APIs. Provides a separation of concerns for the API and the entities that consume it.',
+  yearsOfExperience: '0.5'
+}, {
   name: 'Hasura',
   url: '//hasura.io/',
   description: 'The database soltion of the future: Postgres + GraphQL never felt so good.',
@@ -111,7 +116,7 @@ export default [{
 }, {
   name: 'Git',
   url: '//git-scm.com/',
-  description: `The only version congtrol system you'll ever need.`,
+  description: `All the version control system a developer could ask for.`,
   yearsOfExperience: '5'
 }]
 
