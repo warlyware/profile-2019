@@ -10,9 +10,9 @@ export default {
     return {
       typingSpeed: {
         Instant: 0,
-        Brisk: 50,
-        Normal: 65,
-        Slow: 300
+        Brisk: 30,
+        Normal: 50,
+        Slow: 100
       }
     }
   },
@@ -38,37 +38,26 @@ export default {
       .options({ speed: this.typingSpeed.Normal })
       .pause(500)
       .break()
-      .type(`I'm a frontend focused`)
+      .type(`I'm the CTO at`)
+      .break()
+      .type(`<a href="//herbfluence.com" target="_blank">herbfluence.com</a>,`)
+      .break()
+      .type('a social media influencer')
+      .break()
+      .type('marketing platform.')
+      .pause(200)
+      .break()
+      .type('')
+      .break()
+      .type(`I'm also a `)
       .break()
       .type(`full stack web developer,`)
       .break()
-      .type('author, technical writer,')
-      .break()
-      .type('and web technology consultant.')
+      .type('author, and technical writer.')
       .pause(600)
       .exec(async () => {
         document.getElementsByTagName('body')[0].style.backgroundColor = '#418292'
         document.getElementById('typed-text').style.color = '#FCAC51'
-        await new Promise((resolve, reject) => resolve())
-      })
-      .break()
-      .type('')
-      .break()
-      .type('I live in')
-      .break()
-      .type('Virginia Beach, VA')
-      .break()
-      .type('and work at')
-      .break()
-      .type('<a href="//marathonus.com" target="_blank">Marathon Consulting</a>')
-      .break()
-      .type('as a developer')
-      .break()
-      .type('and consultant.')
-      .pause(600)
-      .exec(async () => {
-        document.getElementsByTagName('body')[0].style.backgroundColor = '#735452'
-        document.getElementById('typed-text').style.color = '#68BFF6'
         await new Promise((resolve, reject) => resolve())
       })
       .break()
@@ -82,17 +71,7 @@ export default {
       .break()
       .type('Second Edition')
       .break()
-      .type('from <a href="//www.packtpub.com" target="_blank">Packt Publishing</a>.')
-      .pause(600)
-      .exec(async () => {
-        document.getElementsByTagName('body')[0].style.backgroundColor = '#342815'
-        document.getElementById('typed-text').style.color = '#A3B95A'
-        await new Promise((resolve, reject) => resolve())
-      })
-      .break()
-      .type('')
-      .break()
-      .type('I am the coeditor')
+      .type('from <a href="//www.packtpub.com" target="_blank">Packt Publishing</a>,')
       .break()
       .type('and cofounder of the')
       .break()
@@ -102,7 +81,7 @@ export default {
       .break()
       .type('which recently surpassed')
       .break()
-      .type('10,000 followers! 🥳')
+      .type('31,000 followers! 🥳')
       .pause(600)
       .exec(async () => {
         document.getElementsByTagName('body')[0].style.backgroundColor = '#211A10'
