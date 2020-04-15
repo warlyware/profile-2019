@@ -12,7 +12,7 @@
         class="p-2 lg:p-4 flex-grow">
           <span class="cursor-pointer p-2 bg-opaque hover:bg-alt-blue-2 hover:text-brown-dark"
           @click="showModal(proficiency)">
-            {{ proficiency }}
+            {{ proficiency.name }}
           </span>
         </div>
       </div>
@@ -21,6 +21,7 @@
 </template>
 
 <script>
+import proficiencies from '~/constants/proficiencies'
 import ProficiencyDetailModal from '~/components/modals/ProficiencyDetailModal.vue'
 
 export default {
@@ -29,41 +30,7 @@ export default {
   },
   data() {
     return {
-      proficiencies: [
-        'Vue',
-        'React',
-        'Redux',
-        'Vuex',
-        'NgRx',
-        'Nuxt',
-        'Angular',
-        'React Native',
-        'TypeScript',
-        'CSS',
-        'Flexbox',
-        'SASS',
-        'LESS',
-        'Responsive Design',
-        'Advanced Layouts',
-        'PostCSS',
-        'Node',
-        'Webpack',
-        'Server Side Rendering',
-        'JavaScript (ES6+)',
-        'D3',
-        'Highcharts',
-        'RxJS',
-        'MongoDB',
-        'Unit Testing',
-        'Google Maps',
-        'Grunt',
-        'Gulp',
-        'Tailwind CSS',
-        'Git',
-        'Agile',
-        'Jira',
-        'Technical Writing'
-      ]
+      proficiencies
     }
   },
   methods: {
@@ -73,24 +40,3 @@ export default {
   }
 }
 </script>
-
-<style lang="scss">
-  modal {
-    background-color: green;
-  }
-  .v--modal-overlay {
-    background-color: RGBA(33, 26, 16, 0.8);
-  }
-  .overlay-fade {
-    transition: opacity 0.7s linear;
-  }
-  .overlay-fade-enter-active, .overlay-fade-leave-active {
-    transition: opacity .5s
-  }
-  .modal-enter-active, .modal-leave-active {
-    transition: opacity .7s
-  }
-  .overlay-fade-enter, .overlay-fade-leave-to, .modal-enter, .modal-leave-to {
-    opacity: 0
-  }
-</style>
