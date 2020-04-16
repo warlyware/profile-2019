@@ -41,9 +41,9 @@
           Medium
         </a>
         <a class="bg-opaque hover:bg-alt-blue-2 hover:text-brown-dark my-4 mx-4"
-        href="//twitter.com/warlyware"
+        href="//gitconnected.com/warlyware"
         target="_blank">
-          Twitter
+          Gitconnected
         </a>
         <a class="bg-opaque hover:bg-alt-blue-2 hover:text-brown-dark my-4 mx-4"
         href="//www.linkedin.com/in/warlyware/"

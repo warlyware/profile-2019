@@ -6,8 +6,8 @@
     <a class="my-4 mx-4" href="//medium.com/@warlyware" target="_blank">
       Medium
     </a>
-    <a class="my-4 mx-4" href="//twitter.com/warlyware" target="_blank">
-      Twitter
+    <a class="my-4 mx-4" href="//gitconnected.com/warlyware" target="_blank">
+      Gitconnected
     </a>
     <a class="my-4 mx-4" href="//www.linkedin.com/in/warlyware/" target="_blank">
       LinkedIn

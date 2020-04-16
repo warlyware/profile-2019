@@ -33,18 +33,18 @@
                 <p class="text-lg font-bold">
                   Technologies
                 </p>
-                <p class="mb-1">Vue | Nuxt | GraphQL | Hasura | Firebase Functions + Authentication + Storage | Heroku</p>
+                <p class="mb-1">Vue | Nuxt | GraphQL | Hasura | Firebase Functions + Authentication + Storage | Paypal API | Heroku</p>
               </div>
               <p class="mb-1">
-                Schlitz meditation affogato semiotics chambray biodiesel kale chips tumeric. La croix hella hexagon coloring
-                book kitsch listicle umami. Cloud bread quinoa put a bird on it man braid sartorial. Seitan freegan fingerstache
-                selfies lyft fixie thundercats raw denim iceland VHS.
+                Acting as the CTO, I have been in charge of all technical decisions, tech hires, and platform architecture,
+                while also serving all functions of a SCRUM master, team lead, dev ops engineer, QA engineer, and lead developer.
               </p>
               <p>
-                Beard williamsburg skateboard marfa flexitarian hammock. Brunch subway tile pok pok wayfarers, salvia kombucha
-                normcore la croix chillwave hell of tofu microdosing gentrify ethical VHS. Activated charcoal truffaut health
-                goth, everyday carry green juice pok pok tilde mustache schlitz synth pitchfork meditation kogi. Yuccie gluten-free
-                lomo, blue bottle heirloom banh mi tilde live-edge swag XOXO DIY kinfolk quinoa.
+                The app is hosted on Heroku, uses Sentry and LogRocket for error reporting, and integrates with the Paypal and Refersion APIs.
+                We launched herbfluence.com in November of 2019, which now has more than 200 users, has already facilitated
+                over 100 successful social media campaigns for our customers, and has garnered over $500,000 in investor funding to date.
+                Since inception of the company, I've strived to keep the product running on technologies that strike the right balance
+                between cutting edge (for efficiency) and mature (for stability).
               </p>
             </div>
           </div>
@@ -81,15 +81,14 @@
                 <p class="mb-1">Angular | TypeScript | Webpack | Highcharts | RxJS | Ngrx | nrwl | SASS</p>
               </div>
               <p class="mb-1">
-                Schlitz meditation affogato semiotics chambray biodiesel kale chips tumeric. La croix hella hexagon coloring
-                book kitsch listicle umami. Cloud bread quinoa put a bird on it man braid sartorial. Seitan freegan fingerstache
-                selfies lyft fixie thundercats raw denim iceland VHS.
+                At Marathon I worked on an extremely large, data heavy project for Caterpillar Marine.
+                My role entailed developing the product, working as part of the Caterpillar team,
+                and providing technical advice to the client regarding matters of architecture, technologies,
+                and development strategies.
               </p>
               <p>
-                Beard williamsburg skateboard marfa flexitarian hammock. Brunch subway tile pok pok wayfarers, salvia kombucha
-                normcore la croix chillwave hell of tofu microdosing gentrify ethical VHS. Activated charcoal truffaut health
-                goth, everyday carry green juice pok pok tilde mustache schlitz synth pitchfork meditation kogi. Yuccie gluten-free
-                lomo, blue bottle heirloom banh mi tilde live-edge swag XOXO DIY kinfolk quinoa.
+                I worked primarily as a frontend developer, working in Angular, RxJS, TypeScript,
+                NgRx, and building complex Flexbox based layouts from scratch using HTML and CSS.
               </p>
             </div>
           </div>
@@ -107,7 +106,7 @@
           </div>
           <div class="flex flex-col w-full lg:w-3/4 py-2 px-4 md:py-4 md:px-8 justify-between bg-opaque-blue border-bottom-top-brown-dark">
             <h1>
-              React Native Cookbook - Second Edition
+              React Native Cookbook: Second Edition
               <a class="text-sm" href="//www.packtpub.com/application-development/react-native-cookbook-second-edition"
               target="_blank">
                 [LINK]
@@ -128,15 +127,15 @@
                 <p class="mb-2">React Native | Expo | Node</p>
               </div>
               <p class="mb-1">
-                Schlitz meditation affogato semiotics chambray biodiesel kale chips tumeric. La croix hella hexagon coloring
-                book kitsch listicle umami. Cloud bread quinoa put a bird on it man braid sartorial. Seitan freegan fingerstache
-                selfies lyft fixie thundercats raw denim iceland VHS.
+                In December 2017, my freelance writing on the development blog levelup.gitconnected.com prompted a
+                recruiter from Packt Publishing to offer me the job of entirely rewriting the React Native Cookbook,
+                to be released as the Second Edition. I spent most of 2018 writing the book,
+                while also working full time at Costar.
               </p>
               <p>
-                Beard williamsburg skateboard marfa flexitarian hammock. Brunch subway tile pok pok wayfarers, salvia kombucha
-                normcore la croix chillwave hell of tofu microdosing gentrify ethical VHS. Activated charcoal truffaut health
-                goth, everyday carry green juice pok pok tilde mustache schlitz synth pitchfork meditation kogi. Yuccie gluten-free
-                lomo, blue bottle heirloom banh mi tilde live-edge swag XOXO DIY kinfolk quinoa.
+                The book covers basic, practical recipes for developing common features in mobile apps
+                using the React Native language. The recipes cover topics ranging from building complex layouts to
+                implementing authentication and push notifications.
               </p>
             </div>
           </div>
@@ -154,17 +153,17 @@
           </div>
           <div class="flex flex-col w-full lg:w-3/4 py-2 px-4 md:py-4 md:px-8 justify-between bg-opaque-blue border-bottom-top-brown-dark">
             <h1>
-              For Rent
+              Costar
               <a class="text-sm" href="//forrent.com"
               target="_blank">
-                [forrent.com]
+                [forrent.com
               </a>
               <span class="text-sm">
                 |
               </span>
               <a class="text-sm" href="//apartments.com"
               target="_blank">
-                [apartments.com]
+                apartments.com]
               </a>
             </h1>
             <h3 class="mb-1">Costar Group</h3>
