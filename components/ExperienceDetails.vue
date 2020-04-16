@@ -4,12 +4,56 @@
       Experience
     </h2>
     <div class="relative w-full h-full overflow-hidden">
-      <div
-      class="flex flex-wrap tracking-wide uppercase absolute h-full w-full overflow-y-scroll ">
+      <div class="flex flex-wrap tracking-wide uppercase absolute h-full w-full overflow-y-scroll">
         <div class="flex w-full">
           <div class="text-3xl w-full hidden xl:text-5xl lg:w-1/4 lg:flex flex-col justify-around h-full">
             <div class="flex flex-col justify-center bg-opaque-brown-dark h-full min-h-110">
-              Present
+              <div>Present</div>
+            </div>
+            <div class="flex flex-col justify-center bg-opaque-brown-light h-full">
+              <div>April</div>
+              <div>2019</div>
+            </div>
+          </div>
+          <div class="flex flex-col w-full lg:w-3/4 py-4 lg:py-2 px-4 md:py-4 md:px-8 justify-between bg-opaque-blue border-bottom-top-brown-dark">
+            <h1 class="mb-1">
+              Herbfluence
+              <a class="text-sm" href="//herbfluence.com" target="_blank">
+                [herbfluence.com]
+              </a>
+            </h1>
+            <h4 class="mb-1 font-light">
+              Chief Technology Officer
+            </h4>
+            <h4 class="my-2 lg:hidden font-light">
+              April 2019 - Present
+            </h4>
+            <div class="flex flex-col justify-center h-full">
+              <div class="py-2">
+                <p class="text-lg font-bold">
+                  Technologies
+                </p>
+                <p class="mb-1">Vue | Nuxt | GraphQL | Hasura | Firebase Functions + Authentication + Storage | Heroku</p>
+              </div>
+              <p class="mb-1">
+                Schlitz meditation affogato semiotics chambray biodiesel kale chips tumeric. La croix hella hexagon coloring
+                book kitsch listicle umami. Cloud bread quinoa put a bird on it man braid sartorial. Seitan freegan fingerstache
+                selfies lyft fixie thundercats raw denim iceland VHS.
+              </p>
+              <p>
+                Beard williamsburg skateboard marfa flexitarian hammock. Brunch subway tile pok pok wayfarers, salvia kombucha
+                normcore la croix chillwave hell of tofu microdosing gentrify ethical VHS. Activated charcoal truffaut health
+                goth, everyday carry green juice pok pok tilde mustache schlitz synth pitchfork meditation kogi. Yuccie gluten-free
+                lomo, blue bottle heirloom banh mi tilde live-edge swag XOXO DIY kinfolk quinoa.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="flex w-full">
+          <div class="text-3xl w-full hidden xl:text-5xl lg:w-1/4 lg:flex flex-col justify-around h-full">
+            <div class="flex flex-col justify-center bg-opaque-brown-dark h-full min-h-110">
+              <div>April</div>
+              <div>2019</div>
             </div>
             <div class="flex flex-col justify-center bg-opaque-brown-light h-full">
               <div>January</div>
@@ -17,12 +61,17 @@
             </div>
           </div>
           <div class="flex flex-col w-full lg:w-3/4 py-4 lg:py-2 px-4 md:py-4 md:px-8 justify-between bg-opaque-blue border-bottom-top-brown-dark">
-            <h1 class="mb-1">Marathon Consulting</h1>
+            <h1 class="mb-1">
+              Marathon Consulting
+              <a class="text-sm" href="//marathonus.com" target="_blank">
+                [marathonus.com]
+              </a>
+            </h1>
             <h4 class="mb-1 font-light">
               Full Stack Developer | Web Technology Consultant
             </h4>
             <h4 class="my-2 lg:hidden font-light">
-              Present - January 2019
+              January 2019 - April 2019
             </h4>
             <div class="flex flex-col justify-center h-full">
               <div class="py-2">
@@ -57,7 +106,13 @@
             </div>
           </div>
           <div class="flex flex-col w-full lg:w-3/4 py-2 px-4 md:py-4 md:px-8 justify-between bg-opaque-blue border-bottom-top-brown-dark">
-            <h1>React Native Cookbook - Second Edition</h1>
+            <h1>
+              React Native Cookbook - Second Edition
+              <a class="text-sm" href="//www.packtpub.com/application-development/react-native-cookbook-second-edition"
+              target="_blank">
+                [LINK]
+              </a>
+            </h1>
             <h3 class="mb-1">Packt Publishing</h3>
             <h4 class="mb-1 font-light">
               Author
@@ -98,7 +153,20 @@
             </div>
           </div>
           <div class="flex flex-col w-full lg:w-3/4 py-2 px-4 md:py-4 md:px-8 justify-between bg-opaque-blue border-bottom-top-brown-dark">
-            <h1>ForRent.com | Apartments.com</h1>
+            <h1>
+              For Rent
+              <a class="text-sm" href="//forrent.com"
+              target="_blank">
+                [forrent.com]
+              </a>
+              <span class="text-sm">
+                |
+              </span>
+              <a class="text-sm" href="//apartments.com"
+              target="_blank">
+                [apartments.com]
+              </a>
+            </h1>
             <h3 class="mb-1">Costar Group</h3>
             <h4 class="mb-2 font-light">
               Full Stack Developer
@@ -141,7 +209,12 @@
             </div>
           </div>
           <div class="flex flex-col w-full lg:w-3/4 py-2 px-4 md:py-4 md:px-8 justify-between bg-opaque-blue border-bottom-top-brown-dark">
-            <h1>Center for Inflammation & Mucosal Immunology</h1>
+            <h1>
+              Center for Inflammation & Mucosal Immunology
+              <a class="text-sm" href="//cimi.medicine.ufl.edu" target="_blank">
+                [LINK]
+              </a>
+            </h1>
             <h3 class="mb-1">University of Florida</h3>
             <h4 class="mb-2 font-light">
               Editor | Senior Secretary
