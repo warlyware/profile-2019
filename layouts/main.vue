@@ -11,7 +11,7 @@
     </button>
     <div v-show="mobileMenuIsOpen"
     id="mobile-menu"
-    class="pb-12 z-10 text-2xl fixed w-screen h-screen bg-brown-dark v-fade">
+    class="z-10 text-lg lg:text-2xl fixed w-screen h-screen bg-brown-dark v-fade">
       <div class="flex flex-col justify-center items-center w-full h-full">
         <button class="bg-opaque hover:bg-alt-blue-2 hover:text-brown-dark my-4 mx-4 text-white"
         @click="navigateTo('home')">

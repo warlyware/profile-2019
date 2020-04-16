@@ -3,6 +3,7 @@
   width="450px"
   classes="bg-alt-blue-2 rounded"
   name="proficiency-deail" transition="modal"
+  :adaptive="true"
   @before-open="beforeOpen">
     <div class="bg-opaque-brown-dark m-4 p-4 rounded">
       <div class="flex flex-col self-center py-2">
