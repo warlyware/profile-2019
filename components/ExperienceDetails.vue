@@ -191,7 +191,7 @@
                 Technologies
               </p>
               <p>
-                Vue | Nuxt | React | Angular | React Native | TypeScript | AngularJS | D3 | SASS | Webpack | Grunt | Gulp
+                Vue | Nuxt | React | Angular | React Native | TypeScript | AngularJS | D3 | SASS | Webpack | Google Maps API
               </p>
             </div>
             <div class="flex flex-col justify-center h-full">
