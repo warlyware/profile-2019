@@ -24,7 +24,7 @@ export default {
       document.getElementById('typed-text').style.opacity = '0'
       document.getElementById('go-home').style.opacity = '0'
       await setTimeout(() => {
-        this.$router.push('skills')
+        this.$router.push('experience')
       }, 500)
     }
   },
