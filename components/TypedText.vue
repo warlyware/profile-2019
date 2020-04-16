@@ -12,7 +12,7 @@ export default {
         Instant: 0,
         Brisk: 30,
         Normal: 50,
-        Slow: 100
+        Slow: 150
       }
     }
   },
@@ -45,7 +45,12 @@ export default {
       .type('a social media influencer')
       .break()
       .type('marketing platform.')
-      .pause(200)
+      .pause(600)
+      .exec(async () => {
+        document.getElementsByTagName('body')[0].style.backgroundColor = 'RGBA(52, 40, 21)'
+        document.getElementById('typed-text').style.color = '#A3B95A'
+        await new Promise((resolve, reject) => resolve())
+      })
       .break()
       .type('')
       .break()
@@ -92,12 +97,36 @@ export default {
       .type('')
       .break()
       .type('Thanks for stopping by!')
-      .pause(1000)
+      .pause(300)
+      .break()
+      .type('')
+      .break()
+      .type('<img class="float-left w-12 h-12" src="/images/conga-parrot.gif" />')
+      .options({ speed: this.typingSpeed.Slow })
+      .type('<img class="float-left w-12 h-12" src="/images/conga-parrot.gif" />')
+      .options({ speed: this.typingSpeed.Slow })
+      .type('<img class="float-left w-12 h-12" src="/images/conga-parrot.gif" />')
+      .options({ speed: this.typingSpeed.Slow })
+      .type('<img class="float-left w-12 h-12" src="/images/conga-parrot.gif" />')
+      .options({ speed: this.typingSpeed.Slow })
+      .type('<img class="float-left w-12 h-12" src="/images/conga-parrot.gif" />')
+      .options({ speed: this.typingSpeed.Slow })
+      .type('<img class="float-left w-12 h-12" src="/images/conga-parrot.gif" />')
+      .options({ speed: this.typingSpeed.Slow })
+      .type('<img class="float-left w-12 h-12" src="/images/conga-parrot.gif" />')
+      .options({ speed: this.typingSpeed.Slow })
+      .type('<img class="float-left w-12 h-12" src="/images/conga-parrot.gif" />')
+      .options({ speed: this.typingSpeed.Slow })
+      .type('<img class="float-left w-12 h-12" src="/images/conga-parrot.gif" />')
+      .options({ speed: this.typingSpeed.Slow })
+      .type('<img class="float-left w-12 h-12" src="/images/conga-parrot.gif" />')
+      .options({ speed: this.typingSpeed.Slow })
+      .type('<img class="float-left w-12 h-12" src="/images/conga-parrot.gif" />')
+      .options({ speed: this.typingSpeed.Slow })
+      .pause(1300)
       // .break()
       // .type('')
-      // .options({ speed: this.typingSpeed.Slow })
       // .break()
-      // .type('<img class="w-12 h-12" src="/images/conga-parrot.gif" />')
       .exec(async () => {
         document.getElementById('typed-text').style.opacity = '0'
         document.getElementById('go-home').style.opacity = '0'

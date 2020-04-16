@@ -1,6 +1,6 @@
 <template>
-  <div class="py-16 pb-24 md:px-32 flex flex-col justify-center items-center h-screen text-white ml--16 max-w-5xl mx-auto">
-    <h2 class="self-center text-3xl uppercase mb-4 md:mt-8 font-light">
+  <div class="py-16 pb-8 md:pb-24 md:px-32 flex flex-col justify-center items-center h-screen text-white ml--16 max-w-5xl mx-auto">
+    <h2 class="self-center text-3xl uppercase py-4 font-light">
       Experience
     </h2>
     <div class="relative w-full h-full overflow-hidden">

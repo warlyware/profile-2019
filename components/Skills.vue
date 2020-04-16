@@ -1,7 +1,7 @@
 <template>
   <div class="px-8 md:px-32 py-16 flex flex-col justify-center items-center h-screen">
     <skill-detail-modal />
-    <h2 class="self-center text-3xl uppercase mb-4 md:mt-8 font-light">
+    <h2 class="self-center text-3xl uppercase py-4 font-light">
       Skills
     </h2>
     <div class="relative w-full h-full max-w-2xl overflow-hidden">
