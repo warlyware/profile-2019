@@ -127,7 +127,8 @@
                 <p>React Native | Expo | Node</p>
               </div>
               <p>
-                In December 2017, my freelance writing on the development blog levelup.gitconnected.com prompted a
+                In December 2017, my freelance writing on the development blog
+                <a href="//levelup.gitconnected.com">levelup.gitconnected.com</a> prompted a
                 recruiter from Packt Publishing to offer me the job of entirely rewriting the React Native Cookbook,
                 to be released as the Second Edition. I spent most of 2018 writing the book,
                 while also working full time at Costar.
