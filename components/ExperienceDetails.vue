@@ -87,7 +87,7 @@
                 and development strategies.
               </p>
               <p>
-                I worked primarily as a frontend developer, working in Angular, RxJS, TypeScript,
+                I served primarily as a frontend developer, working in Angular, RxJS, TypeScript,
                 NgRx, and building complex Flexbox based layouts from scratch using HTML and CSS.
               </p>
             </div>
@@ -112,8 +112,8 @@
                 [LINK]
               </a>
             </h1>
-            <h3 class="mb-1">Packt Publishing</h3>
-            <h4 class="mb-1 font-light">
+            <h3 class="py-2">Packt Publishing</h3>
+            <h4 class="py-2 font-light">
               Author
             </h4>
             <h4 class="my-2 lg:hidden font-light">
@@ -124,9 +124,9 @@
                 <p class="text-lg font-bold">
                   Technologies
                 </p>
-                <p class="mb-2">React Native | Expo | Node</p>
+                <p>React Native | Expo | Node</p>
               </div>
-              <p class="mb-1">
+              <p>
                 In December 2017, my freelance writing on the development blog levelup.gitconnected.com prompted a
                 recruiter from Packt Publishing to offer me the job of entirely rewriting the React Native Cookbook,
                 to be released as the Second Edition. I spent most of 2018 writing the book,
@@ -154,6 +154,19 @@
           <div class="flex flex-col w-full lg:w-3/4 py-2 px-4 md:py-4 md:px-8 justify-between bg-opaque-blue border-bottom-top-brown-dark">
             <h1>
               Costar
+              <a class="text-sm hidden md:inline-block" href="//forrent.com"
+              target="_blank">
+                [forrent.com
+              </a>
+              <span class="text-sm hidden md:inline-block">
+                |
+              </span>
+              <a class="text-sm hidden md:inline-block" href="//apartments.com"
+              target="_blank">
+                apartments.com]
+              </a>
+            </h1>
+            <div class="py-2">
               <a class="text-sm" href="//forrent.com"
               target="_blank">
                 [forrent.com
@@ -165,7 +178,7 @@
               target="_blank">
                 apartments.com]
               </a>
-            </h1>
+            </div>
             <h3 class="mb-1">Costar Group</h3>
             <h4 class="mb-2 font-light">
               Full Stack Developer
@@ -177,21 +190,27 @@
               <p class="text-lg font-bold">
                 Technologies
               </p>
-              <p class="mb-1">
-                Vue | Nuxt | React | Angular | React | React Native | TypeScript | AngularJS | D3 | SASS | Webpack | Grunt | Gulp
+              <p>
+                Vue | Nuxt | React | Angular | React Native | TypeScript | AngularJS | D3 | SASS | Webpack | Grunt | Gulp
               </p>
             </div>
             <div class="flex flex-col justify-center h-full">
-              <p class="mb-1">
-                Schlitz meditation affogato semiotics chambray biodiesel kale chips tumeric. La croix hella hexagon coloring
-                book kitsch listicle umami. Cloud bread quinoa put a bird on it man braid sartorial. Seitan freegan fingerstache
-                selfies lyft fixie thundercats raw denim iceland VHS.
+              <p>
+                Served as architect, lead developer, and sole frontend developer on ForRent.com enterprise business
+                dashboard app Market Profile, powered by AngularJS, Angular Material, and D3,
+                with custom authorization and authentication.
               </p>
               <p>
-                Beard williamsburg skateboard marfa flexitarian hammock. Brunch subway tile pok pok wayfarers, salvia kombucha
-                normcore la croix chillwave hell of tofu microdosing gentrify ethical VHS. Activated charcoal truffaut health
-                goth, everyday carry green juice pok pok tilde mustache schlitz synth pitchfork meditation kogi. Yuccie gluten-free
-                lomo, blue bottle heirloom banh mi tilde live-edge swag XOXO DIY kinfolk quinoa.
+                Lead a small team in a greenfield rearchitecture of ForRent's college focused sister site ForRentUniversity.com,
+                an SSR app built in Nuxt and Vue.
+              </p>
+              <p>
+                Worked with R&D team to develop a mobile video chat platform, ForRent Live.
+                During this project I learned how to build mobile apps with React Native, and how to work with live streaming video.
+              </p>
+              <p>
+                Worked with Angular (1/2/4) + TypeScript on ForRent.com, visited by over 500,000 users daily at that time,
+                as well as enterprise apartment messaging app Community Messenger.
               </p>
             </div>
           </div>
@@ -243,7 +262,11 @@ export default {
 }
 </script>
 
-<style>
+<style lang="scss" scoped>
+  p {
+    padding-top: 0.25rem;
+    padding-bottom: 0.25rem;
+  }
   .border-bottom-top-brown-dark {
     border-top: solid 1px #211A10;
     border-bottom: solid 1px #211A10;
