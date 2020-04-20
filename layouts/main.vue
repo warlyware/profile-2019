@@ -1,5 +1,5 @@
 <template>
-  <div id="main-screen-fade-in" class="w-full h-screen overflow-hidden absolute">
+  <div id="main-screen-fade-in" class="w-full h-screen overflow-hidden absolute bg-brown-dark">
     <button class="z-20 flex shadow-lg items-center justify-center pin-r pin-t fixed rounded-full bg-white w-12 h-12 mt-4 mr-4 md:hidden"
     @click="toggleMobileMenu">
       <div v-show="mobileMenuIsOpen" class="mt--1 text-5xl bold">
@@ -12,7 +12,7 @@
     <div v-show="mobileMenuIsOpen"
     id="mobile-menu"
     class="z-10 text-lg lg:text-2xl fixed w-screen h-screen bg-brown-dark v-fade overflow-y-scroll">
-      <div class="flex flex-col items-center w-full h-full py-4">
+      <div class="flex flex-col items-center justify-center w-full h-full py-4">
         <button class="bg-opaque hover:bg-alt-blue-2 hover:text-brown-dark my-4 mx-4 text-white"
         @click="navigateTo('experience')">
           Experience

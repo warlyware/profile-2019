@@ -28,7 +28,7 @@ export default {
     goToIntro() {
       document.getElementsByTagName('html')[0].style.opacity = '0'
       document.getElementsByTagName('body')[0].style.backgroundColor = '#fff'
-      // document.getElementById('main-screen-fade-in').style.backgroundColor = '#fff'
+
       setTimeout(() => {
         window.location = '/'
       }, 600)
@@ -40,8 +40,13 @@ export default {
 <style>
 html {
   opacity: 1;
-  transition: opacity 0.7s linear;
+  background-color: #fff;
+  transition: opacity 0.4s linear;
 }
+/* html {
+  opacity: 1;
+  transition: opacity 0.7s linear;
+} */
 .screen-edge {
   background-color: RGBA(239, 242, 243, 0.02);
 }
