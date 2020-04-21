@@ -16,7 +16,7 @@
               {{ skill.name }}
             </span>
             <span class="text-xs">
-              {{ skill.yearsOfExperience }} years experience
+              {{ skill.yearsOfExperience }} {{ Number(skill.yearsOfExperience) > 1 ? 'years': 'year' }} experience
             </span>
           </div>
         </div>

@@ -16,7 +16,11 @@
           [LINK]
         </a>
         <div class="self-center text-sm italic">
-          {{ details.yearsOfExperience }} years of experience
+          {{ details.yearsOfExperience }}
+          <span>
+            {{ Number(details.yearsOfExperience) > 1 ? 'years' : 'year' }}
+          </span>
+          of experience
         </div>
       </div>
       <div class="flex flex-col self-center py-4">

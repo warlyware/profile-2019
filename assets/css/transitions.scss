@@ -20,7 +20,7 @@ body {
 }
 .v-fade {
   display: inherit !important;
-  transition: opacity 0.4s ease-in-out;
+  transition: opacity 0.65s ease-in-out;
 }
 .v-fade[style*="display: none;"] {
   opacity: 0;

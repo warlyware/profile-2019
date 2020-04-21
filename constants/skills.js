@@ -1,12 +1,12 @@
 export default [{
   name: 'JavaScript (ES6+)',
   url: 'https://developer.mozilla.org/en-US/docs/Web/JavaScript',
-  description: `The coding language that runs the web. It's a big deal.`,
+  description: `The coding language that runs the web. You've probably heard of it.`,
   yearsOfExperience: '5.5'
 }, {
   name: 'Vue',
   url: '//vuejs.org/',
-  description: 'The greatest JavaScript frontend framework.',
+  description: 'The greatest frontend JavaScript framework.',
   yearsOfExperience: '3'
 }, {
   name: 'Vuex',
@@ -21,7 +21,7 @@ export default [{
 }, {
   name: 'React',
   url: '//reactjs.org',
-  description: 'The 2nd greatest JavaScript frontend framework.',
+  description: 'The 2nd greatest frontend JavaScript framework.',
   yearsOfExperience: '1'
 }, {
   name: 'React Redux',
@@ -41,11 +41,11 @@ export default [{
 }, {
   name: 'Hasura',
   url: '//hasura.io/',
-  description: 'The database soltion of the future: Postgres + GraphQL never felt so good.',
+  description: 'The database solution of the future: Postgres + GraphQL never felt so good.',
   yearsOfExperience: '0.5'
 }, {
   name: 'CSS',
-  url: '//www.w3.org/Style/CSS/specs.en.html',
+  url: '//developer.mozilla.org/en-US/docs/Learn/CSS/First_steps/What_is_CSS',
   description: `Cascading style sheets. The only reason all websites don't look the same.`,
   yearsOfExperience: '5'
 }, {
@@ -120,7 +120,8 @@ export default [{
   yearsOfExperience: '5'
 }]
 
-// [
+// Consider adding
+
 // 'Angular',
 // 'TypeScript',
 // 'PostCSS',
@@ -131,5 +132,4 @@ export default [{
 // 'Unit Testing',
 // 'Google Maps',
 // 'Grunt',
-// 'Gulp',
-// ]
+// 'Gulp'
