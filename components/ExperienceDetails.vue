@@ -6,9 +6,153 @@
     <div class="relative w-full h-full overflow-hidden">
       <div class="flex flex-wrap tracking-wide uppercase absolute h-full w-full overflow-y-scroll">
         <div class="flex w-full">
-          <div class="text-3xl w-full hidden xl:text-5xl lg:w-1/4 lg:flex flex-col justify-around h-full">
+          <div class="text-3xl w-full hidden xl:text-3xl lg:w-1/4 lg:flex flex-col justify-around h-full">
             <div class="flex flex-col justify-center bg-opaque-brown-dark h-full min-h-110">
               <div>Present</div>
+            </div>
+            <div class="flex flex-col justify-center bg-opaque-brown-light h-full">
+              <div>July</div>
+              <div>2022</div>
+            </div>
+          </div>
+          <div class="flex flex-col w-full lg:w-3/4 py-4 lg:py-2 px-4 md:py-4 md:px-8 justify-between bg-opaque-blue border-bottom-top-brown-dark">
+            <h1 class="mb-1">
+              Narentine NFTs (Swamp Labs)
+              <a class="text-sm" href="//narentines.com" target="_blank">
+                [narentines.com]
+              </a>
+            </h1>
+            <h4 class="mb-1 font-light">
+              Solana Blockchain Developer
+            </h4>
+            <h4 class="my-2 lg:hidden font-light">
+              July 2022 - Present
+            </h4>
+            <div class="flex flex-col justify-center h-full">
+              <div class="py-2">
+                <p class="text-lg font-bold">
+                  Technologies
+                </p>
+                <p class="mb-1">React | Tailwind CSS | Solana | Metaplex | Heroku | GraphQL</p>
+              </div>
+              <p class="mb-1">
+                Part time contract work for a Solana NFT project.
+                Building a raffle site that sells raffle tickets for Solana SPL tokens (cryptocurrency).
+                Follow up projects will include an NFT staking site and NFT game site.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="flex w-full">
+          <div class="text-3xl w-full hidden xl:text-3xl lg:w-1/4 lg:flex flex-col justify-around h-full">
+            <div class="flex flex-col justify-center bg-opaque-brown-dark h-full min-h-110">
+              <div>July</div>
+              <div>2022</div>
+            </div>
+            <div class="flex flex-col justify-center bg-opaque-brown-light h-full">
+              <div>April</div>
+              <div>2022</div>
+            </div>
+          </div>
+          <div class="flex flex-col w-full lg:w-3/4 py-4 lg:py-2 px-4 md:py-4 md:px-8 justify-between bg-opaque-blue border-bottom-top-brown-dark">
+            <h1 class="mb-1">
+              Deso Messenger
+              <a class="text-sm" href="//desomessenger.com" target="_blank">
+                [desomessenger.com]
+              </a>
+            </h1>
+            <h4 class="mb-1 font-light">
+              Senior Frontend Developer
+            </h4>
+            <h4 class="my-2 lg:hidden font-light">
+              April 2022 - July 2022
+            </h4>
+            <div class="flex flex-col justify-center h-full">
+              <div class="py-2">
+                <p class="text-lg font-bold">
+                  Technologies
+                </p>
+                <p class="mb-1">React | Redux | Redux-Saga | Tailwind CSS</p>
+              </div>
+              <p class="mb-1">
+                Worked with a small startup to build out the frontend on a sophisticate blockchain messaging app.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="flex w-full">
+          <div class="text-3xl w-full hidden xl:text-3xl lg:w-1/4 lg:flex flex-col justify-around h-full">
+            <div class="flex flex-col justify-center bg-opaque-brown-dark h-full min-h-110">
+              <div>April</div>
+              <div>2022</div>
+            </div>
+            <div class="flex flex-col justify-center bg-opaque-brown-light h-full">
+              <div>November</div>
+              <div>2020</div>
+            </div>
+          </div>
+          <div class="flex flex-col w-full lg:w-3/4 py-4 lg:py-2 px-4 md:py-4 md:px-8 justify-between bg-opaque-blue border-bottom-top-brown-dark">
+            <h1 class="mb-1">
+              Where's Weed
+              <a class="text-sm" href="//wheresweed.com" target="_blank">
+                [wheresweed.com]
+              </a>
+            </h1>
+            <h4 class="mb-1 font-light">
+              Senior Frontend Developer & Manager
+            </h4>
+            <h4 class="my-2 lg:hidden font-light">
+              Nov 2020 - Apr 2022
+            </h4>
+            <div class="flex flex-col justify-center h-full">
+              <div class="py-2">
+                <p class="text-lg font-bold">
+                  Technologies
+                </p>
+                <p class="mb-1">Vue | GraphQL | Tailwind CSS</p>
+              </div>
+              <p class="mb-1">
+                Served as senior front end developer on cannabis dispensary locator app.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="flex w-full">
+          <div class="text-3xl w-full hidden xl:text-3xl lg:w-1/4 lg:flex flex-col justify-around h-full">
+            <div class="flex flex-col justify-center bg-opaque-brown-dark h-full min-h-110">
+              <div>Sept</div>
+              <div>2020</div>
+            </div>
+            <div class="flex flex-col justify-center bg-opaque-brown-light h-full">
+              <div>June</div>
+              <div>2020</div>
+            </div>
+          </div>
+          <div class="flex flex-col w-full lg:w-3/4 py-4 lg:py-2 px-4 md:py-4 md:px-8 justify-between bg-opaque-blue border-bottom-top-brown-dark">
+            <h1 class="mb-1">
+              Peapod
+              <a class="text-sm" href="//peapod.com" target="_blank">
+                [peapod.com]
+              </a>
+            </h1>
+            <h4 class="mb-1 font-light">
+              Senior Frontend Developer
+            </h4>
+            <h4 class="my-2 lg:hidden font-light">
+              June 2020 - Sept 2020
+            </h4>
+            <div class="flex flex-col justify-center h-full">
+              <p class="mb-1">
+                Worked on the front end in a contract position with large company building a grocery delivery app.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="flex w-full">
+          <div class="text-3xl w-full hidden xl:text-3xl lg:w-1/4 lg:flex flex-col justify-around h-full">
+            <div class="flex flex-col justify-center bg-opaque-brown-dark h-full min-h-110">
+              <div>May</div>
+              <div>2020</div>
             </div>
             <div class="flex flex-col justify-center bg-opaque-brown-light h-full">
               <div>April</div>
@@ -26,7 +170,7 @@
               Chief Technology Officer
             </h4>
             <h4 class="my-2 lg:hidden font-light">
-              April 2019 - Present
+              April 2019 - May 2020
             </h4>
             <div class="flex flex-col justify-center h-full">
               <div class="py-2">
@@ -50,7 +194,7 @@
           </div>
         </div>
         <div class="flex w-full">
-          <div class="text-3xl w-full hidden xl:text-5xl lg:w-1/4 lg:flex flex-col justify-around h-full">
+          <div class="text-3xl w-full hidden xl:text-3xl lg:w-1/4 lg:flex flex-col justify-around h-full">
             <div class="flex flex-col justify-center bg-opaque-brown-dark h-full min-h-110">
               <div>April</div>
               <div>2019</div>
@@ -94,7 +238,7 @@
           </div>
         </div>
         <div class="flex w-full">
-          <div class="text-3xl w-full hidden xl:text-5xl lg:w-1/4 lg:flex flex-col justify-around h-full">
+          <div class="text-3xl w-full hidden xl:text-3xl lg:w-1/4 lg:flex flex-col justify-around h-full">
             <div class="flex flex-col justify-center bg-opaque-brown-dark h-full">
               <div>February</div>
               <div>2019</div>
@@ -142,7 +286,7 @@
           </div>
         </div>
         <div class="flex w-full">
-          <div class="text-3xl w-full hidden xl:text-5xl lg:w-1/4 lg:flex flex-col justify-around h-full">
+          <div class="text-3xl w-full hidden xl:text-3xl lg:w-1/4 lg:flex flex-col justify-around h-full">
             <div class="flex flex-col justify-center bg-opaque-brown-dark h-full">
               <div>December</div>
               <div>2018</div>
@@ -217,7 +361,7 @@
           </div>
         </div>
         <div class="flex w-full">
-          <div class="text-3xl w-full hidden xl:text-5xl lg:w-1/4 lg:flex flex-col justify-around h-full">
+          <div class="text-3xl w-full hidden xl:text-3xl lg:w-1/4 lg:flex flex-col justify-around h-full">
             <div class="flex flex-col justify-center bg-opaque-brown-dark h-full">
               <div>May</div>
               <div>2015</div>

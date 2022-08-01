@@ -3,9 +3,9 @@
     <nuxt-link class="my-4 mx-4" to="experience">
       Experience
     </nuxt-link>
-    <nuxt-link class="my-4 mx-4" to="skills">
+    <!-- <nuxt-link class="my-4 mx-4" to="skills">
       Skills
-    </nuxt-link>
+    </nuxt-link> -->
     <nuxt-link class="my-4 mx-4" to="writing">
       Writing
     </nuxt-link>

@@ -17,10 +17,10 @@
         @click="navigateTo('experience')">
           Experience
         </button>
-        <button class="bg-opaque hover:bg-alt-blue-2 hover:text-brown-dark my-4 mx-4 text-white"
+        <!-- <button class="bg-opaque hover:bg-alt-blue-2 hover:text-brown-dark my-4 mx-4 text-white"
         @click="navigateTo('skills')">
           Skills
-        </button>
+        </button> -->
         <button class="bg-opaque hover:bg-alt-blue-2 hover:text-brown-dark my-4 mx-4 text-white"
         @click="navigateTo('writing')">
           Writing
