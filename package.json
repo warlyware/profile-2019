@@ -4,6 +4,9 @@
   "description": "Dan Ward: CTO | Full Stack Developer | Author",
   "author": "Dan Ward",
   "private": true,
+  "engines": {
+    "node": "14.17.4"
+  },
   "scripts": {
     "dev": "nuxt",
     "build": "nuxt build",
