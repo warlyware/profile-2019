@@ -75,7 +75,7 @@
                 <p class="mb-1">React | Redux | Redux-Saga | Tailwind CSS</p>
               </div>
               <p class="mb-1">
-                Worked with a small startup to build out the frontend on a sophisticate blockchain messaging app.
+                Worked with a small startup to build out the frontend on a sophisticated blockchain messaging app.
               </p>
             </div>
           </div>
